@@ -1,5 +1,3 @@
-# java-beginner
-非计科菜鸟的java学习过程
 
 # java-beginner Java 初学者
 
