@@ -1,6 +1,4 @@
 #算术运算符
-import math
-
 print(311//25)
 print(311%25)
 print(3**25)
