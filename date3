@@ -1,0 +1,81 @@
+#算术运算符
+import math
+
+print(311//25)
+print(311%25)
+print(3**25)
+"""
+12
+11
+847288609443
+"""
+#赋值运算符
+a=1
+b=2
+a+=b #相当于a=a+b
+print(a)
+a**=a+2 #相当于a=a**（a+2）
+print(a)
+"""
+3
+243
+"""
+#SyntaxError: invalid syntax
+#print((a=10))
+#海象运算符
+a=5
+print(a)
+print((a:=10))
+"""
+5
+10
+"""
+#比较运算符
+flag0=1==1
+flag1=1<2
+flag2=1>2
+print('flag0是',flag0)
+print('flag1是',flag1)
+print('flag2是',flag2)
+"""
+flag0是 True
+flag1是 True
+flag2是 False
+"""
+#逻辑运算符
+flag3=flag0 and flag1
+flag4=flag1 or flag2
+flag5= not flag3
+print('flag3是',flag3)
+print('flag4是',flag4)
+print('flag5是',flag5)
+"""
+flag3是 True
+flag4是 True
+flag5是 False
+"""
+#作业
+#eg1华氏温度转摄氏温度
+F1=float(input('请输入华氏温度F1的数值:'))
+T1=(F1-32)/1.8
+print('%.1f华氏温度=%.1f摄氏温度'%(F1,T1))
+"""15.0华氏温度=-9.4摄氏温度"""
+F2=float(input('输入华氏温度值F2:'))
+T2=(F2-32)/1.8
+print(f'{F2:.1f}华氏温度={T2:.1f}摄氏温度')
+      
+#eg2圆的周长与面积计算
+import math
+radius=float(input('输入圆的半径值'))
+perimeter=2*math.pi*radius
+area=math.pi*radius**2
+print(f'该圆的周长是{perimeter:.2f}')
+print(f'{area:.3f}是该圆的面积')
+print('%.3f是该圆的周长'%perimeter)
+print('该圆的面积是%.2f'%area)
+     
+#eg3判断闰年
+year=int(input('输入年份数值'))
+is_leap = year%4 == 0 and year%100 != 0 or year%400 == 0
+print(f'{is_leap = }')
+# f'{is_leap = }'是语法糖，美观简洁化表达

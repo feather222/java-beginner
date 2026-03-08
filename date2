@@ -1,0 +1,22 @@
+#常见变量类型
+int，float，str,bool
+#变量类型确定
+print(type(a))
+#变量类型转化
+a=100
+b='123'
+c=123.45
+d='100'
+e='123.45'
+f='Hello World'
+g=True
+print(float(a))
+print(int(b))
+print(int(c))
+print(int(d,base=2))
+print(float(e))
+print(bool(f))
+print(int(g))
+print(chr(a))
+print(ord('d'))
+chr将int转换为str输出为d；ord将str'd'转化为int，输出为100
