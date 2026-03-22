@@ -19,4 +19,4 @@ print(bool(f))
 print(int(g))
 print(chr(a))
 print(ord('d'))
-chr将int转换为str输出为d；ord将str'd'转化为int，输出为100
+#chr将int转换为str输出为d；ord将str'd'转化为int，输出为100
