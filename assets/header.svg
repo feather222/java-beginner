@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-label="Python Beginner">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="55%" stop-color="#1a2a4a"/>
+      <stop offset="100%" stop-color="#2b1a4a"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#61dafb"/>
+      <stop offset="60%" stop-color="#7ee787"/>
+      <stop offset="100%" stop-color="#ffd700"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2ea44f"/>
+      <stop offset="100%" stop-color="#61dafb"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="1200" height="280" fill="url(#bg)"/>
+
+  <!-- 装饰圆点 -->
+  <circle cx="1080" cy="60" r="90" fill="#61dafb" opacity="0.06"/>
+  <circle cx="1160" cy="220" r="120" fill="#b388ff" opacity="0.08"/>
+  <circle cx="60" cy="240" r="70" fill="#7ee787" opacity="0.05"/>
+
+  <!-- 代码装饰符号 -->
+  <text x="1050" y="200" font-family="Consolas, monospace" font-size="120" fill="#61dafb" opacity="0.25">&lt;/&gt;</text>
+
+  <!-- 主标题 -->
+  <text x="70" y="120" font-family="'Segoe UI', Arial, sans-serif" font-size="72" font-weight="700" fill="url(#title)" letter-spacing="2">
+    PYTHON BEGINNER
+  </text>
+
+  <!-- 副标题 -->
+  <text x="72" y="170" font-family="'Microsoft YaHei', 'Segoe UI', Arial, sans-serif" font-size="30" fill="#e6edf3">
+    非计科菜鸟的 Python 成长之路
+  </text>
+  <text x="72" y="208" font-family="'Microsoft YaHei', 'Segoe UI', Arial, sans-serif" font-size="20" fill="#8b949e">
+    从 Hello World 到自动化办公，每天进步一点点 🐍
+  </text>
+
+  <!-- 进度条 -->
+  <rect x="72" y="230" width="380" height="14" rx="7" fill="#21262d"/>
+  <rect x="72" y="230" width="354" height="14" rx="7" fill="url(#bar)"/>
+  <text x="460" y="242" font-family="Consolas, monospace" font-size="16" fill="#8b949e">
+    28 / 30 天 · 93%
+  </text>
+</svg>
